@@ -15,6 +15,12 @@ import {
 export default function App() {
   return (
     <div className="App">
+      <React.Fragment>
+        <TravelerEffect /> <MosaicGroundEffect /> <OceanEffect /> <RainEffect />
+        <SeaWaveEffect /> <SnowFallEffect /> <SnowFallSlowEffect />
+        <SpacingEffect />
+        <CloudWaveEffect />
+      </React.Fragment>
       <header className="App-header">"Hi from React!"</header>
     </div>
   );
