@@ -1,23 +1,21 @@
 import "./App.css";
-import React from "react";
-import StarSky from "react-star-sky";
+import React, { Component } from "react";
+import {
+  TravelerEffect,
+  MosaicGroundEffect,
+  OceanEffect,
+  RainEffect,
+  SeaWaveEffect,
+  SnowFallEffect,
+  SnowFallSlowEffect,
+  SpacingEffect,
+  CloudWaveEffect,
+} from "react-background-animation";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <StarSky
-          debugFps={true} // Default = false
-          pageBackground={true}
-          backgroundColor={[0, 0, 10]}
-          frameRate={30} // Default = 60
-          style={{ opacity: 0.5 }} // applied to the div wrapper
-          className={""} // applied to the div wrapper
-          starColor={"white"} // Default = 'white', options: 'rainbow', 'white/red/green/etc'[w3color], [r, g, b]
-          skyColor={"blue"} // Default = 'black', options: 'white/red/green/etc'[w3color], [r, g, b]
-        />
-        "Hi from React!"
-      </header>
+      <header className="App-header">"Hi from React!"</header>
     </div>
   );
 }
