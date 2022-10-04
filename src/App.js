@@ -1,8 +1,8 @@
 import "./App.css";
-
+import React from "react";
 import StarSky from "react-star-sky";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
